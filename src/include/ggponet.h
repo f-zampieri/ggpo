@@ -17,15 +17,7 @@ extern "C" {
 // On windows, export at build time and import at runtime.
 // ELF systems don't need an explicit export/import.
 #ifdef _WIN32
-#  if defined(GGPO_SHARED_LIB)
-#  ifdef GGPO_SDK_EXPORT
-#       define GGPO_API __declspec(dllexport)
-#     else
-#       define GGPO_API __declspec(dllimport)
-#     endif
-#  else
-#     define GGPO_API
-#  endif
+#  define GGPO_API __declspec(dllexport)
 #else
 #  define GGPO_API
 #endif
@@ -296,6 +288,8 @@ typedef struct GGPONetworkStats {
    } timesync;
 } GGPONetworkStats;
 
+GGPO_API int helloWorld();
+
 /*
  * ggpo_start_session --
  *
@@ -559,6 +553,12 @@ GGPO_API void __cdecl ggpo_log(GGPOSession *,
 GGPO_API void __cdecl ggpo_logv(GGPOSession *,
                                 const char *fmt,
                                 va_list args);
+
+// Windows specific API to initialize windows sockets for network programming
+GGPO_API GGPOErrorCode __cdecl ggpo_initialize_winsock();
+
+// Windows specific API to deinitialize windows sockets for network programming
+GGPO_API GGPOErrorCode __cdecl ggpo_deinitialize_winsock();
 
 #ifdef __cplusplus
 };

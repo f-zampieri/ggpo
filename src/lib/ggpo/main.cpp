@@ -206,3 +206,36 @@ GGPOErrorCode ggpo_start_spectating(GGPOSession **session,
    return GGPO_OK;
 }
 
+GGPOErrorCode
+ggpo_initialize_winsock()
+{
+#ifdef WIN32
+    WORD wVersionRequested = MAKEWORD(2, 2);
+    WSADATA wsaData;
+    int err = WSAStartup(wVersionRequested, &wsaData);
+
+    if (err != 0) {
+        // Can comment out following lines for debugging purposes
+        //printf("WSAStartup failed with error: %d\n", err);
+        //DWORD lastError = WSAGetLastError();
+        //printf("last error code: %d\n", lastError);
+        ASSERT(FALSE && "Error initializing winsockets");
+    }
+#endif
+
+    return GGPO_ERRORCODE_SUCCESS;
+}
+
+GGPOErrorCode
+ggpo_deinitialize_winsock()
+{
+#ifdef WIN32
+    // https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-wsacleanup
+    int result = WSACleanup();
+    if (result != 0) {
+        ASSERT(FALSE && "Error de-initializing winsockets");
+    }
+#endif
+
+    return GGPO_ERRORCODE_SUCCESS;
+}

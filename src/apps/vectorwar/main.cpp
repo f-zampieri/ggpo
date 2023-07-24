@@ -127,6 +127,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
       Syntax();
       return 1;
    }
+   // if spectator
    if (wcscmp(__wargv[offset], L"spectate") == 0) {
       char host_ip[128];
       unsigned short host_port;
@@ -136,22 +137,25 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
       }
       wcstombs_s(nullptr, host_ip, ARRAYSIZE(host_ip), wide_ip_buffer, _TRUNCATE);
       VectorWar_InitSpectator(hwnd, local_port, num_players, host_ip, host_port);
-   } else {
+   } else { // if regular player
       GGPOPlayer players[GGPO_MAX_SPECTATORS + GGPO_MAX_PLAYERS];
 
+      // iterate over remaining args, e.g. "local 127.0.0.1:7001" for host
       int i;
       for (i = 0; i < num_players; i++) {
          const wchar_t *arg = __wargv[offset++];
 
          players[i].size = sizeof(players[i]);
          players[i].player_num = i + 1;
+         // if arg is not "local" (probably an IP-port pair), set GGPO_PLAYERTYPE_LOCAL and continue loop
          if (!_wcsicmp(arg, L"local")) {
-            players[i].type = GGPO_PLAYERTYPE_LOCAL;
+            players[i].type = GGPO_PLAYERTYPE_LOCAL; // wat
             local_player = i;
             continue;
          }
          
          players[i].type = GGPO_PLAYERTYPE_REMOTE;
+         // if arg is not an IP-port pair, reject
          if (swscanf_s(arg, L"%[^:]:%hd", wide_ip_buffer, wide_ip_buffer_size, &players[i].u.remote.port) != 2) {
             Syntax();
             return 1;

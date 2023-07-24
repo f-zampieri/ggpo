@@ -1,0 +1,160 @@
+"C:\Users\Pancho\AppData\Local\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\Pancho\source\repos\ggpo -B C:\Users\Pancho\source\repos\ggpo\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Pancho/source/repos/ggpo/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 1: C:\Users\Pancho\AppData\Local\JetBrains\CLion 2022.2.4\bin\mingw\bin\g++.exe -xc++ -DGGPO_EXPORTS -DGGPO_SDK_EXPORT -DGGPO_SHARED_LIB -g -fdiagnostics-color=always /W4 /WX -std=gnu++98 -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=C:\Users\Pancho\AppData\Local\JetBrains\CLion 2022.2.4\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'GGPO_EXPORTS' '-D' 'GGPO_SDK_EXPORT' '-D' 'GGPO_SHARED_LIB' '-g' '-std=gnu++98' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D GGPO_EXPORTS -D GGPO_SDK_EXPORT -D GGPO_SHARED_LIB -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -std=gnu++98 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'GGPO_EXPORTS' '-D' 'GGPO_SDK_EXPORT' '-D' 'GGPO_SHARED_LIB' '-g' '-std=gnu++98' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D GGPO_EXPORTS -D GGPO_SDK_EXPORT -D GGPO_SHARED_LIB -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -std=gnu++98 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'GGPO_EXPORTS' '-D' 'GGPO_SDK_EXPORT' '-D' 'GGPO_SHARED_LIB' '-g' '-std=gnu++98' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D GGPO_EXPORTS -D GGPO_SDK_EXPORT -D GGPO_SHARED_LIB -D ___CIDR_DEFINITIONS_END C:\Users\Pancho\AppData\Local\Temp\compiler-file1968508688939124446 -mtune=generic -march=x86-64 -std=gnu++98 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file1968508688939124446
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
+	Compiler exited with error code 1: C:\Users\Pancho\AppData\Local\JetBrains\CLion 2022.2.4\bin\mingw\bin\g++.exe -xc++ -DGGPO_SHARED_LIB -DUNICODE -D_UNICODE -g -fdiagnostics-color=always /W4 /WX -std=gnu++98 -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=C:\Users\Pancho\AppData\Local\JetBrains\CLion 2022.2.4\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'GGPO_SHARED_LIB' '-D' 'UNICODE' '-D' '_UNICODE' '-g' '-std=gnu++98' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D GGPO_SHARED_LIB -D UNICODE -D _UNICODE -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -std=gnu++98 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'GGPO_SHARED_LIB' '-D' 'UNICODE' '-D' '_UNICODE' '-g' '-std=gnu++98' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D GGPO_SHARED_LIB -D UNICODE -D _UNICODE -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -std=gnu++98 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'GGPO_SHARED_LIB' '-D' 'UNICODE' '-D' '_UNICODE' '-g' '-std=gnu++98' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D GGPO_SHARED_LIB -D UNICODE -D _UNICODE -D ___CIDR_DEFINITIONS_END C:\Users\Pancho\AppData\Local\Temp\compiler-file1968508688939124446 -mtune=generic -march=x86-64 -std=gnu++98 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file1968508688939124446
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 C:/Users/Pancho/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
